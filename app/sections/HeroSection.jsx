@@ -10,18 +10,18 @@ import Image_Component from '../components/Image Component';
 
 
 function HeroSection() {
-  const renderSocialIcons = () =>
-    socialLinks.map(({ href, icon, label }) => (
-      <Link
-        key={label}
-        href={href}
-        aria-label={label}
-        target="_blank"
-        className="text-black transition hover:text-orange-500 duration-300"
-      >
-        {icon}
-      </Link>
-    ));
+  // const renderSocialIcons = () =>
+  //   socialLinks.map(({ href, icon, label }) => (
+  //     <Link
+  //       key={label}
+  //       href={href}
+  //       aria-label={label}
+  //       target="_blank"
+  //       className="text-black transition hover:text-orange-500 duration-300"
+  //     >
+  //       {icon}
+  //     </Link>
+  //   ));
 
   const paraText = `I’m a passionate web developer and UI/UX designer with a focus on creating
           beautiful, intuitive, and user-friendly digital experiences.
@@ -78,9 +78,9 @@ function HeroSection() {
           
         </Button>
 
-        <div className="flex items-center gap-4 mt-4 md:hidden" >
+{/*         <div className="flex items-center gap-4 mt-4 md:hidden" >
           {renderSocialIcons()}
-        </div>
+        </div> */}
       </div>
 
       {/* <div className="transition-transform duration-300 cursor-pointer hover:-rotate-6">
