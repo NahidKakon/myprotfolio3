@@ -57,7 +57,7 @@ function HeroSection() {
           className="text-3xl font-extrabold md:text-4xl"
           duration={2}
           filter={false}
-          words="Software developer | Front-end | Back-end"
+          words="Software developer | Front-end | Back-end |"
         />
         <TextGenerateEffect
           className="ml-[1.0rem] md:ml-[1.5rem] mb-4 text-3xl font-extrabold md:text-4xl"
