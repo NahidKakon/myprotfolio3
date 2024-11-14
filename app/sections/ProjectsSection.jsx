@@ -19,11 +19,11 @@ function ProjectsSection() {
         {' '}
 
         <b>Industry Project</b> <br/>
-        During bootcamp, I did 3 months Industry project for Phoenix Software, Where I was scrum master for the team of 4 students. <br/>
-        I also did requirement analysis, front end design, front end development including adding branding details, preparing final <br/>
-        report and presentation. I am proud of leading the team to complete this project in time, produce an workable software to meet<br/>
+        During bootcamp, I did 3 months Industry project for Phoenix Software, Where I was scrum master for the team of 4 students.
+        I also did requirement analysis, front end design, front end development including adding branding details, preparing final
+        report and presentation. I am proud of leading the team to complete this project in time, produce an workable software to meet
         client's expectation and gain good feedback during presentation.
-        Agile Methodology, HTML, CSS, JAVASCRIPT, PhpMyAdmin were used to develop this software,<br/> 
+        Agile Methodology, HTML, CSS, JAVASCRIPT, PhpMyAdmin were used to develop this software, 
         we manually tested it to ensure it is running as expected. <br/> <br/>
         <b>Explore my other works of personal projects, showcasing my
         expertise in design and development.</b>
