@@ -14,10 +14,22 @@ function ProjectsSection() {
       <h2 className="mb-4 text-3xl font-bold text-center lg:mb-8">
         My Projects
       </h2>
+      
       <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
         {' '}
-        Explore my works of personal projects, showcasing my
-        expertise in design and development.
+
+        <b>Industry Project</b> <br/>
+        During bootcamp, I did 3 months Industry project for Phoenix Software, <br/> 
+        Where I was scrum master for the team of 4 students. I also did <br/> 
+        requirement analysis, front end design, front end development including <be/>
+        adding branding details, preparing final report and presentation. <br/>
+        I am proud of leading the team to complete this project in time,<br/> 
+        produce an workable software to meet client's expectation and gain good<br/>
+        feedback during presentation. <br/> 
+        Agile Methodology, HTML, CSS, JAVASCRIPT, PhpMyAdmin were used to develop this software,<br/> 
+        we manually tested it to ensure it is running as expected. <br/> <br/>
+        <b>Explore my other works of personal projects, showcasing my
+        expertise in design and development.</b>
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
