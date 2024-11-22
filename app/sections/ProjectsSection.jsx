@@ -82,7 +82,7 @@ function ProjectsSection() {
         <Button className="text-black bg-orange-400
         bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
          <Link
-         href="https://expense-tracker-three-nu-60.vercel.app/" className="button"> Expence Tracker
+         href="https://expense-tracker-three-nu-60.vercel.app/" className="button"> Expence Tracker (under Construction)
          
          </Link>
         </Button>
