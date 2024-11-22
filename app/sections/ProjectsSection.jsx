@@ -65,7 +65,7 @@ function ProjectsSection() {
          </Link>
         </Button>
       </div>
-      <br/>    <br/>    <br/>    <br/>    <br/>    <br/>
+{/*       <br/>    <br/>    <br/>    <br/>    <br/>    <br/> */}
     
       <div className="flex justify-center"> 
        <Button className="text-black bg-orange-400
