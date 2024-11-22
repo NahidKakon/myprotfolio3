@@ -65,13 +65,15 @@ function ProjectsSection() {
          </Link>
         </Button>
       </div>
-      <div className="flex justify-center">
+      
+      <div>
+{/*       <div className="flex justify-center"> */}
        <Button className="text-black bg-orange-400
         bg-orange-4500 border margin-top: 10px hover:bg-orange-600 hover:border-orange-400">
          <Link
           href="my-shop-nine-roan.vercel.app" className="button">My e-commerce shop (under construction)         </Link>
         </Button>
-        </div>
+       
 
       <Button className="text-black bg-orange-400
         bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
@@ -86,6 +88,8 @@ function ProjectsSection() {
          
          </Link>
         </Button>
+
+         </div>
       {/* <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard
