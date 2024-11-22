@@ -72,6 +72,20 @@ function ProjectsSection() {
           href="my-shop-nine-roan.vercel.app" className="button">My e-commerce shop (under construction)         </Link>
         </Button>
         </div>
+
+      <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+        <Link
+         href="https://tic-tac-toe-game-nu-khaki.vercel.app/" className="button"> Tic-Tac-Toe- game
+         </Link>
+        </Button>
+        <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://expense-tracker-three-nu-60.vercel.app/" className="button"> Expence Tracker
+         
+         </Link>
+        </Button>
       {/* <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard
