@@ -17,28 +17,102 @@ function ProjectsSection() {
       
       <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
         {' '}
-
-        <b>Industry Project</b> <br/>
-        During bootcamp, I did 3 months Industry project for Phoenix Software, Where I was scrum master for the team of 4 students.
-        I also did requirement analysis, front end design, front end development including adding branding details, preparing final
-        report and presentation. I am proud of leading the team to complete this project in time, produce an workable software to meet
-        client's expectation and gain good feedback during presentation.
-        Agile Methodology, HTML, CSS, JAVASCRIPT, PhpMyAdmin were used to develop this software, 
-        we manually tested it to ensure it is running as expected. <br/> <br/>
-        <b>Explore my other works of personal projects, showcasing my
-        expertise in design and development.</b>
+        <b>Explore my personal projects, showcasing my expertise in AI compatibility, design and development.</b>
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-4">
+       
         <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://nahidkakon.github.io/Videomarquee/" className="button"> AI Realistic Social Media Lipsync Video
+         
+         </Link>
+        </Button>
+        
+        
+        <Button className="text-black bg-orange-400
+        bg-orange-4500 border margin-top: 10px hover:bg-orange-600 hover:border-orange-400">
+         <Link
+          href="https://youtu.be/l2DYDWuoMjw" className="button"> AI Lipsync video for Kids</Link>
+        </Button>
+
+        <Button className="text-black bg-orange-400
+        bg-orange-4500 border margin-top: 10px hover:bg-orange-600 hover:border-orange-400">
+         <Link
+          href="https://youtu.be/ojzsB7S3-Jw" className="button"> AI & VFX Animation</Link>
+        </Button>
+       
+    
+        <Button className="text-black bg-orange-400
+        bg-orange-4500 border margin-top: 10px hover:bg-orange-600 hover:border-orange-400">
+         <Link
+          href="https://youtube.com/live/ycPmknKjX_c?feature=share" className="button"> AI Animated music video for toddlers</Link>
+        </Button>
+
+                <Button className="text-black bg-orange-400
         bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
         
       <Link
        href="https://test1-ten-wheat.vercel.app/" className="button">Nature blog
     
         </Link>
-    
         </Button>
+
+      <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+        <Link
+         href="https://tic-tac-toe-game-nu-khaki.vercel.app/" className="button"> Tic-Tac-Toe- game
+         </Link>
+        </Button>
+{/*         <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://expense-tracker-three-nu-60.vercel.app/" className="button"> Expence Tracker (under Construction)
+         
+         </Link>
+        </Button> */}
+
+          <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://stylized-rosy.vercel.app/" className="button"> AI Stylized 3D environment portfolio
+         
+         </Link>
+        </Button>
+
+        <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://www.youtube.com/channel/UCM70vCUQPvM17Q_8f0I-I8Q/" className="button"> Youtube channel
+         
+         </Link>
+        </Button>
+
+          <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://nahidkakon.github.io/type-to-speak/" className="button"> Type to speak app with language and voice selection
+         
+         </Link>
+        </Button>
+
+        <Button className="text-black bg-orange-400
+        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
+         <Link
+         href="https://nahidkakon.github.io/Speak-App/" className="button"> Type to speak app for Bengali speakers
+         
+         </Link>
+        </Button>
+
+
+
+      </div>    
+       <br/>    
+{/*   <br/>    <br/>    <br/>    <br/>    <br/>  */}
+      
+      <div className="flex justify-center"> 
+        
         <Button className="text-black bg-orange-400
         bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
         <Link
@@ -61,45 +135,6 @@ function ProjectsSection() {
         bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
          <Link
          href="https://nahid-six.vercel.app/" className="button"> Animation
-         
-         </Link>
-        </Button>
-      </div>    
-       <br/>    
-{/*   <br/>    <br/>    <br/>    <br/>    <br/>  */}
-      
-      <div className="flex justify-center"> 
-{/*        <Button className="text-black bg-orange-400
-        bg-orange-4500 border margin-top: 10px hover:bg-orange-600 hover:border-orange-400">
-         <Link
-          href="my-shop-nine-roan.vercel.app" className="button">My e-commerce shop (under construction)         </Link>
-        </Button> */}
-
-        <Button className="text-black bg-orange-400
-        bg-orange-4500 border margin-top: 10px hover:bg-orange-600 hover:border-orange-400">
-         <Link
-          href="my-shop-nine-roan.vercel.app" className="button">Under Construction 1.My e-commerce shop 2. Expence Tracker          </Link>
-        </Button>
-       
-
-      <Button className="text-black bg-orange-400
-        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
-        <Link
-         href="https://tic-tac-toe-game-nu-khaki.vercel.app/" className="button"> Tic-Tac-Toe- game
-         </Link>
-        </Button>
-{/*         <Button className="text-black bg-orange-400
-        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
-         <Link
-         href="https://expense-tracker-three-nu-60.vercel.app/" className="button"> Expence Tracker (under Construction)
-         
-         </Link>
-        </Button> */}
-
-          <Button className="text-black bg-orange-400
-        bg-orange-4500 border hover:bg-orange-600 hover:border-orange-400">
-         <Link
-         href="https://stylized-rosy.vercel.app/" className="button"> Stylized 3D environment portfolio
          
          </Link>
         </Button>

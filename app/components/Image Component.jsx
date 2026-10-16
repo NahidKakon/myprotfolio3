@@ -8,9 +8,9 @@ function Image_Component() {
         <Image
           src="/image1.gif"      // Path to the image
           alt="my-image"          // Alt text for accessibility
-          height={500}            // Image height
-          width={500}             // Image width
-          quality={100}           // Image quality for optimization
+          height={400}            // Image height
+          width={300}             // Image width
+          quality={30}           // Image quality for optimization
         />
       </div>  
     </div>

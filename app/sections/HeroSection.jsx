@@ -10,21 +10,20 @@ import Image_Component from '../components/Image Component';
 
 
 function HeroSection() {
-  // const renderSocialIcons = () =>
-  //   socialLinks.map(({ href, icon, label }) => (
-  //     <Link
-  //       key={label}
-  //       href={href}
-  //       aria-label={label}
-  //       target="_blank"
-  //       className="text-black transition hover:text-orange-500 duration-300"
-  //     >
-  //       {icon}
-  //     </Link>
-  //   ));
+  const renderSocialIcons = () =>
+    socialLinks.map(({ href, icon, label }) => (
+      <Link
+        key={label}
+        href={href}
+        aria-label={label}
+        target="_blank"
+        className="text-black transition hover:text-orange-500 duration-300"
+      >
+        {icon}
+      </Link>
+    ));
 
-  const paraText = `I’m a passionate web developer and UI/UX designer with a focus on creating
-          beautiful, intuitive, and user-friendly digital experiences.
+  const paraText = `AI Video Creator | Realistic AI Presenters, Animation & Social Content
           My works not only look great but also deliver seamless user interactions.`
 
   return (
@@ -35,7 +34,7 @@ function HeroSection() {
     >
       
       <div className="self-center  justify-self-center">
-        <TextGenerateEffect
+        {/* <TextGenerateEffect
           className="text-base font-semibold md:text-xl"
           duration={2}
           filter={false}
@@ -46,13 +45,13 @@ function HeroSection() {
         <Name/>
       
       <br/>
-        {/* <TextGenerateEffect
+        <TextGenerateEffect
           className="text-base font-semibold text-orange-400 md:text-x7"
           duration={2}
           filter={false}
           words="Nahid Shakib"
           
-        /> */}
+        />
         <TextGenerateEffect
           className="text-3xl font-extrabold md:text-4xl"
           duration={2}
@@ -64,7 +63,7 @@ function HeroSection() {
           duration={2}
           filter={false}
           words="UI & UX Designer"
-        />
+        /> */}
         <TextGenerateEffect
           className="mb-4 text-black/60"
           duration={1}

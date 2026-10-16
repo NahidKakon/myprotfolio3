@@ -15,9 +15,25 @@ export default function Home() {
     <main className="w-full p-4">
       
       <HeroSection />
+
+      <ProjectsSection />
+      {/* <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-8 px-4 py-12 md:grid-cols-2 md:gap-10">
+
+        {/* Left column */}
+        {/* <div className="min-w-0">
+          <AboutSection />
+        </div> */}
+
+        {/* Right column */}
+        {/* <div className="min-w-0">
+          <SevicesSection />
+        </div>
+
+      </div> */} 
+
       <AboutSection />
       <SevicesSection />
-      <ProjectsSection />
+     
       {/* <TestimonialsSection /> */}
       <ContactSection />
       <Footer/>

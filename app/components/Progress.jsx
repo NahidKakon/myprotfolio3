@@ -1,6 +1,6 @@
 function Progress({ name, value }) {
   return (
-    <div className="mb-6">
+    <div className="mb-4">
       <div className="flex items-center justify-between mb-1">
         <h2 className="text-lg font-bold">{name}</h2>
       </div>
