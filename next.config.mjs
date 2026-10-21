@@ -1,21 +1,23 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
-
 // /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   // Enables static export for GitHub Pages
-//   output: 'export',
+// const nextConfig = {};
+
+// export default nextConfig;
+
+const isGithubActions = process.env.GITHUB_ACTIONS || false;
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // Required for static export to GitHub Pages
+  output: 'export',
   
-//   // Prepends the subpath to internal routes and assets
-//   basePath: '/myprotfolio3',
-//   assetPrefix: '/myprotfolio3/',
+  // Set the subpath ONLY when building on GitHub Actions
+  basePath: isGithubActions ? '/myprotfolio3' : '',
+  assetPrefix: isGithubActions ? '/myprotfolio3/' : '',
 
-//   // Required for Next.js <Image /> component in static exports
-//   images: {
-//     unoptimized: true,
-//   },
-// };
+  images: {
+    // Required for static HTML exports
+    unoptimized: true,
+  },
+};
 
-// module.exports = nextConfig;
+module.exports = nextConfig;
