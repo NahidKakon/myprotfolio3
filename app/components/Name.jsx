@@ -12,7 +12,7 @@ function Name() {
     <div className="flex flex-col items-left justify-center min-h-4">
     {/* min-h-screen bg-gray-100"> */} 
       <Image
-        src="/name.svg"
+        src="/name.jpg"
         alt="logo"
         width={200}
         height={150}
