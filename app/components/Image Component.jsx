@@ -6,7 +6,7 @@ function Image_Component() {
     <div>
       <div className="transition-transform duration-300 cursor-pointer hover:-rotate-6">
         <Image
-          src="/image1.gif"      // Path to the image
+          src="/image1.jpg"      // Path to the image
           alt="my-image"          // Alt text for accessibility
           height={400}            // Image height
           width={300}             // Image width
